@@ -1,75 +1,75 @@
-//// single line comment
-//
-///*
-//multi-line
-//comment
-// */
-//
+// single line comment
+
+/*
+multi-line
+comment
+*/
+
 //fun main() {
-//    // 1 : main & print function :
-//    // print explisit message & expression/variable
-////    val name = "Ihsan"
-////    print("Hello my name is ")
-////    println(name)
+    // 1 : main & print function :
+        // print explisit message & expression/variable
+//    val name = "Ihsan"
+//    print("Hello my name is ")
+//    println(name)
+
+    // 2 : type data & variable :
+//    var nama: String = "Ihsan"
+//    nama = "Ihsan Muhammad Iqbal"
+//    var namaJuga ="Sabila"
+
+//    val bulan: String = "Maret"
+//    val bulanJuga = "Januari"
+
+//    println(nama + " " + namaJuga)
+//    println(bulan + " " + bulanJuga)
+
+    // 3 : char
+//    var character = 'A'
+//    println(character++)
+//    println(character++)
+//    println(character++)
+//    println(character--)
+//    println(character--)
+
+    // 4 : String
+//    val textString = "Ihsan"
+//    val firstWord = textString[0]
+//    println(firstWord)
 //
-//    // 2 : type data & variable :
-////    var nama: String = "Ihsan"
-////    nama = "Ihsan Muhammad Iqbal"
-////    var namaJuga ="Sabila"
-////
-////    val bulan: String = "Maret"
-////    val bulanJuga = "Januari"
-////
-////    println(nama + " " + namaJuga)
-////    println(bulan + " " + bulanJuga)
-//
-//    // 3 : char
-////    var character = 'A'
-////    println(character++)
-////    println(character++)
-////    println(character++)
-////    println(character--)
-////    println(character--)
-//
-//    // 4 : String
-////    val textString = "Ihsan"
-////    val firstWord = textString[0]
-////    println(firstWord)
-////
-////    for (char in textString) {
-////        println("$char ")
-////    }
-////
-////    val escaped = "Ihsan sangat \"cool!\"\nini baris baru\ttab baru hehe\nini unicode: \u00A9"
-////    println(escaped)
-////
-////    var raw = """
-////        Ini adalah raw "String"
-////        Bebas line nya yaa
-////        multiline & arbitrary
-////    """.trimIndent()
-////    println(raw)
-//
-//    // 5 : Functions
+//    for (char in textString) {
+//        println("$char ")
+//    }
+
+//    val escaped = "Ihsan sangat \"cool!\"\nini baris baru\ttab baru hehe\nini unicode: \u00A9"
+//    println(escaped)
+
+//    var raw = """
+//        Ini adalah raw "String"
+//        Bebas line nya yaa
+//        multiline & arbitrary
+//    """.trimIndent()
+//    println(raw)
+
+    // 5 : Functions
 //    val user = functionWithReturn("Ihsan", 19)
 //    println(user)
 //    val users = functionReturn("Sabila")
 //    println(users)
-//
+
 //    functionWithoutReturn("Ihsan")
 //    functionNoReturn("Sabila")
 //}
-//
+
 //fun functionWithReturn(name: String, age: Int): String {
 //    return "Ini struktur lengkapnya $name $age"
 //}
-//
+
 //fun functionReturn(name: String) = "jika expressionnya 1 (expression body) $name"
-//
+
 //fun functionWithoutReturn(name: String): Unit {
 //    println("Ini struktur lengkapnya $name")
 //}
-//
+
 //fun functionNoReturn(name: String) {
 //    println("Ini struktur singkat $name")
 //}
